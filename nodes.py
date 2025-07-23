@@ -7,9 +7,6 @@ from safetensors import safe_open
 import folder_paths
 import json
 
-# Dynamically add current directory to path for model import
-import sys
-#sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from .cascadedgaze import CascadedGaze
 from .tiling import process_image_batch
 
