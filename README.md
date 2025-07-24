@@ -1,9 +1,11 @@
 # ComfyUI-CascadedGaze
 
 ![screenshot](images/comfy.png)
+
 This project allows you to use CascadedGaze models within ComfyUI!
 
 ![sample](images/cg_example.webp)
+
 The above image demonstrates the jpg & webp artifacts removal CascadedGaze network I trained applied to an in-the-wild image taken from [1999.co.jp](https://www.1999.co.jp/eng/11134179), the patches have been 2x nearest neighbor upscaled to help demonstrate the effect. If it's still unclear to you, zoom in.
 
 ## Installation
