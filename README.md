@@ -18,3 +18,7 @@ you can find my models here: https://huggingface.co/Verah/Real-CascadedGaze
 ## Models
 
 - [cg_denoise_jpg+webp_artifacts_small.safetensors](https://huggingface.co/Verah/Real-CascadedGaze/blob/main/cg_denoise_jpg%2Bwebp_artifacts_small.safetensors) a 77M parameter model trained to remove jpg or webp artifacts, even if they have been up or down scaled.
+
+## What is CascadedGaze?
+
+A traditional denoising model architecture by Ascend-Research. The official implementation repo is [here](https://github.com/Ascend-Research/CascadedGaze/tree/main) and it is MIT licensed. I've only used thier pytorch model implementation, both here and in the trainings of my models.
